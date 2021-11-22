@@ -1,0 +1,52 @@
+{
+  "name": "umi-plugin-recoil",
+  "version": "0.0.1-beta.1",
+  "description": "plugin-recoil for umi@3.x",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets"
+  ],
+  "scripts": {
+    "clear": "rimraf esm lib",
+    "build": "npm run clear && tsc -p config/tsconfig.prod.json",
+    "prepublishOnly": "npm run build",
+    "pub": "npm publish && git push",
+    "ppub": "npm version patch && npm run pub"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoKam/umi-plugin-recoil.git"
+  },
+  "keywords": [
+    "umi",
+    "plugin",
+    "recoil",
+    "dva",
+    "react",
+    "store",
+    "model",
+    "umijs"
+  ],
+  "author": "NicoKam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicoKam/umi-plugin-recoil/issues"
+  },
+  "homepage": "https://github.com/NicoKam/umi-plugin-recoil#readme",
+  "dependencies": {
+    "recoil": "^0.5.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.2",
+    "umi": "^3.5.20"
+  },
+  "peerDependencies": {
+    "umi": ">=3.1"
+  }
+}
