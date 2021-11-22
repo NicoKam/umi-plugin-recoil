@@ -6,7 +6,7 @@ A plugin for umijs@3.x to help you set `RecoilRoot`.
 
 ## What is Recoil?
 
-[Recoil](https://recoiljs.org/) provides a fast an flexible way to share state across components with `React Hooks Api`.
+[Recoil](https://recoiljs.org/) provides a fast and flexible way to share state across components with `React Hooks Api`.
 
 ## What does this plugin do?
 
