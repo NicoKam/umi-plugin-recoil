@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-recoil",
-  "version": "0.0.1-beta.1",
+  "version": "1.0.0",
   "description": "plugin-recoil for umi@3.x",
   "main": "lib/index.js",
   "files": [
