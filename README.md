@@ -30,7 +30,7 @@ yarn add umi-plugin-recoil
 
 I am used to place the `Atom` inside 'recoil' folder like this.
 
-![recoil-folder](../umi-plugin-recoil/assets/pic1.png)
+![recoil-folder](./assets/pic1.png)
 
 ### Create Atom
 
