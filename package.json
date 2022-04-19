@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-recoil",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "plugin-recoil for umi@3.x",
   "main": "lib/index.js",
   "files": [
@@ -37,8 +37,7 @@
     "url": "https://github.com/NicoKam/umi-plugin-recoil/issues"
   },
   "homepage": "https://github.com/NicoKam/umi-plugin-recoil#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "prettier": "^2.4.1",
     "recoil": "^0.7.2",
