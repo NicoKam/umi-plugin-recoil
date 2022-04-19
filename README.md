@@ -21,9 +21,9 @@ A plugin for umijs@3.x to help you set `RecoilRoot`.
 ### Install dependencies with npm or yarn in you umijs@3 project
 
 ```bash
-npm install umi-plugin-recoil
+npm install umi-plugin-recoil recoil
 # or
-yarn add umi-plugin-recoil
+yarn add umi-plugin-recoil recoil
 ```
 
 ### Create Recoil Atom in the right place
